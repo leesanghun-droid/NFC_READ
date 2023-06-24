@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnfc.a  CMakeFiles/nfc.dir/nfc.c.o
+/usr/bin/ranlib libnfc.a

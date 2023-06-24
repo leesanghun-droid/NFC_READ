@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/lsh/NFC_READ/main.c" "/home/lsh/NFC_READ/CMakeFiles/main.dir/main.c.o"
+  "/home/lsh/NFC_READ/nfc/time_stamp/time_stamp.c" "/home/lsh/NFC_READ/nfc/CMakeFiles/time_stamp.dir/time_stamp/time_stamp.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -14,10 +14,6 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/lsh/NFC_READ/nfc/CMakeFiles/nfc.dir/DependInfo.cmake"
-  "/home/lsh/NFC_READ/nfc/CMakeFiles/uart.dir/DependInfo.cmake"
-  "/home/lsh/NFC_READ/nfc/CMakeFiles/poll.dir/DependInfo.cmake"
-  "/home/lsh/NFC_READ/nfc/CMakeFiles/time_stamp.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,1 +1,1 @@
-/usr/bin/cc    CMakeFiles/main.dir/main.c.o  -o main 
+/usr/bin/cc    CMakeFiles/main.dir/main.c.o  -o main  nfc/libnfc.a nfc/libuart.a nfc/libpoll.a nfc/libtime_stamp.a 

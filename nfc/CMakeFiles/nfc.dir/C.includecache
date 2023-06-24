@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lsh/NFC_READ/nfc/com/uart.h
+
+/home/lsh/NFC_READ/nfc/nfc.c
+stdio.h
+-
+stdbool.h
+-
+stdint.h
+-
+nfc.h
+/home/lsh/NFC_READ/nfc/nfc.h
+com/uart.h
+/home/lsh/NFC_READ/nfc/com/uart.h
+poll/poll.h
+/home/lsh/NFC_READ/nfc/poll/poll.h
+time_stamp/time_stamp.h
+/home/lsh/NFC_READ/nfc/time_stamp/time_stamp.h
+
+/home/lsh/NFC_READ/nfc/nfc.h
+
+/home/lsh/NFC_READ/nfc/poll/poll.h
+
+/home/lsh/NFC_READ/nfc/time_stamp/time_stamp.h
+

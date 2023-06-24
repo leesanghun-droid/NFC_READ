@@ -123,6 +123,58 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+#=============================================================================
+# Target rules for targets named nfc
+
+# Build rule for target.
+nfc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nfc
+.PHONY : nfc
+
+# fast build rule for target.
+nfc/fast:
+	$(MAKE) -f nfc/CMakeFiles/nfc.dir/build.make nfc/CMakeFiles/nfc.dir/build
+.PHONY : nfc/fast
+
+#=============================================================================
+# Target rules for targets named uart
+
+# Build rule for target.
+uart: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 uart
+.PHONY : uart
+
+# fast build rule for target.
+uart/fast:
+	$(MAKE) -f nfc/CMakeFiles/uart.dir/build.make nfc/CMakeFiles/uart.dir/build
+.PHONY : uart/fast
+
+#=============================================================================
+# Target rules for targets named poll
+
+# Build rule for target.
+poll: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 poll
+.PHONY : poll
+
+# fast build rule for target.
+poll/fast:
+	$(MAKE) -f nfc/CMakeFiles/poll.dir/build.make nfc/CMakeFiles/poll.dir/build
+.PHONY : poll/fast
+
+#=============================================================================
+# Target rules for targets named time_stamp
+
+# Build rule for target.
+time_stamp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 time_stamp
+.PHONY : time_stamp
+
+# fast build rule for target.
+time_stamp/fast:
+	$(MAKE) -f nfc/CMakeFiles/time_stamp.dir/build.make nfc/CMakeFiles/time_stamp.dir/build
+.PHONY : time_stamp/fast
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -159,6 +211,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
+	@echo "... nfc"
+	@echo "... uart"
+	@echo "... poll"
+	@echo "... time_stamp"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

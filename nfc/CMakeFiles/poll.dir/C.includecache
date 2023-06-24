@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/lsh/NFC_READ/main.c
-stdio.h
+/home/lsh/NFC_READ/nfc/poll/poll.c
+sys/poll.h
 -
 stdint.h
 -
-unistd.h
--
-nfc/nfc.h
-/home/lsh/NFC_READ/nfc/nfc.h
-
-/home/lsh/NFC_READ/nfc/nfc.h
 

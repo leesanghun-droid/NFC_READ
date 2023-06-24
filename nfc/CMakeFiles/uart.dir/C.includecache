@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/lsh/NFC_READ/main.c
-stdio.h
+/home/lsh/NFC_READ/nfc/com/uart.c
+uart.h
+/home/lsh/NFC_READ/nfc/com/uart.h
+termios.h
 -
-stdint.h
+fcntl.h
 -
-unistd.h
--
-nfc/nfc.h
-/home/lsh/NFC_READ/nfc/nfc.h
 
-/home/lsh/NFC_READ/nfc/nfc.h
+/home/lsh/NFC_READ/nfc/com/uart.h
 

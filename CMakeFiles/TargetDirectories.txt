@@ -1,3 +1,9 @@
 /home/lsh/NFC_READ/CMakeFiles/rebuild_cache.dir
 /home/lsh/NFC_READ/CMakeFiles/edit_cache.dir
 /home/lsh/NFC_READ/CMakeFiles/main.dir
+/home/lsh/NFC_READ/nfc/CMakeFiles/rebuild_cache.dir
+/home/lsh/NFC_READ/nfc/CMakeFiles/nfc.dir
+/home/lsh/NFC_READ/nfc/CMakeFiles/uart.dir
+/home/lsh/NFC_READ/nfc/CMakeFiles/edit_cache.dir
+/home/lsh/NFC_READ/nfc/CMakeFiles/poll.dir
+/home/lsh/NFC_READ/nfc/CMakeFiles/time_stamp.dir

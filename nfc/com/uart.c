@@ -21,7 +21,7 @@ int uart_init(const char* device)
 
    // 시리얼 포트 통신 환경 설정
    memset(&newtio, 0, sizeof(newtio) );
-   newtio.c_cflag       = B115200 | CS8 | CLOCAL | CREAD;
+   newtio.c_cflag       = B9600 | CS8 | CLOCAL | CREAD;
    newtio.c_oflag       = 0;
    newtio.c_lflag       = 0;
    newtio.c_cc[VTIME]   = 0;
