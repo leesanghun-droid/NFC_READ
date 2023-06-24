@@ -1,1 +1,1 @@
-/usr/bin/cc    CMakeFiles/main.dir/main.c.o  -o main  modbus/libmodbus.a modbus/libuart.a modbus/libcrc.a modbus/libpoll.a modbus/libtime_stamp.a 
+/usr/bin/cc    CMakeFiles/main.dir/main.c.o  -o main 

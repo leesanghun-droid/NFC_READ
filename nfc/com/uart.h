@@ -1,0 +1,1 @@
+int uart_init(const char* device);

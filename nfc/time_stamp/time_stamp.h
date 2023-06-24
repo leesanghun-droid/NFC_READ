@@ -1,0 +1,1 @@
+void Time_printf(char * string);

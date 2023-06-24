@@ -1,5 +1,3 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.10)
 project(PLC_TEST)
-add_subdirectory(modbus)
 ADD_EXECUTABLE(main main.c)
-target_link_libraries( main modbus )

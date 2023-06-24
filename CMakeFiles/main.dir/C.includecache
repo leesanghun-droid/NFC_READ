@@ -6,29 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test/main.c
-sys/time.h
--
-unistd.h
--
-stdbool.h
--
-time.h
--
+/home/lsh/NFC_READ/main.c
 stdio.h
 -
-stdint.h
--
-string.h
--
-stdlib.h
--
-main.h
-/home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test/main.h
-
-/home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test/main.h
-modbus/modbus.h
-/home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test/modbus/modbus.h
-
-/home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test/modbus/modbus.h
 

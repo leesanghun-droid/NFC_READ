@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test
+CMAKE_SOURCE_DIR = /home/lsh/NFC_READ
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test
+CMAKE_BINARY_DIR = /home/lsh/NFC_READ
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test/CMakeFiles /home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lsh/NFC_READ/CMakeFiles /home/lsh/NFC_READ/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lsh/NFC_READ/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,71 +123,6 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-#=============================================================================
-# Target rules for targets named modbus
-
-# Build rule for target.
-modbus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 modbus
-.PHONY : modbus
-
-# fast build rule for target.
-modbus/fast:
-	$(MAKE) -f modbus/CMakeFiles/modbus.dir/build.make modbus/CMakeFiles/modbus.dir/build
-.PHONY : modbus/fast
-
-#=============================================================================
-# Target rules for targets named crc
-
-# Build rule for target.
-crc: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 crc
-.PHONY : crc
-
-# fast build rule for target.
-crc/fast:
-	$(MAKE) -f modbus/CMakeFiles/crc.dir/build.make modbus/CMakeFiles/crc.dir/build
-.PHONY : crc/fast
-
-#=============================================================================
-# Target rules for targets named uart
-
-# Build rule for target.
-uart: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 uart
-.PHONY : uart
-
-# fast build rule for target.
-uart/fast:
-	$(MAKE) -f modbus/CMakeFiles/uart.dir/build.make modbus/CMakeFiles/uart.dir/build
-.PHONY : uart/fast
-
-#=============================================================================
-# Target rules for targets named poll
-
-# Build rule for target.
-poll: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 poll
-.PHONY : poll
-
-# fast build rule for target.
-poll/fast:
-	$(MAKE) -f modbus/CMakeFiles/poll.dir/build.make modbus/CMakeFiles/poll.dir/build
-.PHONY : poll/fast
-
-#=============================================================================
-# Target rules for targets named time_stamp
-
-# Build rule for target.
-time_stamp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 time_stamp
-.PHONY : time_stamp
-
-# fast build rule for target.
-time_stamp/fast:
-	$(MAKE) -f modbus/CMakeFiles/time_stamp.dir/build.make modbus/CMakeFiles/time_stamp.dir/build
-.PHONY : time_stamp/fast
-
 main.o: main.c.o
 
 .PHONY : main.o
@@ -224,11 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
-	@echo "... modbus"
-	@echo "... crc"
-	@echo "... uart"
-	@echo "... poll"
-	@echo "... time_stamp"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
