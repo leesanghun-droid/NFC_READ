@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test/modbus/com/uart.h
+
+/home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test/modbus/crc/crc.h
+stdint.h
+-
+
+/home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test/modbus/modbus.c
+stdio.h
+-
+stdbool.h
+-
+stdint.h
+-
+modbus.h
+/home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test/modbus/modbus.h
+com/uart.h
+/home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test/modbus/com/uart.h
+crc/crc.h
+/home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test/modbus/crc/crc.h
+poll/poll.h
+/home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test/modbus/poll/poll.h
+time_stamp/time_stamp.h
+/home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test/modbus/time_stamp/time_stamp.h
+
+/home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test/modbus/modbus.h
+
+/home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test/modbus/poll/poll.h
+
+/home/lsh/SINVIHAM-MNTech/lsh/modbus/linux_modbus_test/modbus/time_stamp/time_stamp.h
+

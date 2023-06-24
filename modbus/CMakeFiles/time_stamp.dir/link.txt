@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtime_stamp.a  CMakeFiles/time_stamp.dir/time_stamp/time_stamp.c.o
+/usr/bin/ranlib libtime_stamp.a
